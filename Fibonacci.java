@@ -2,6 +2,33 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
+    // Fibonacci sol. with mod
+
+    // public static int fibonacciNumber(int n){
+    //     // Write your code here.
+
+    //     int first = 0;
+    //     int second = 1;
+    //     int sum = 0;
+
+    //     int mod = (int)Math.pow(10, 9)+7;
+
+    //     if(n==0 || n==1){
+    //         return 1;
+    //     }
+    //     else {
+    //         for(int i=2; i<=n; i++){
+    //             sum = first + second;
+    //             first = second;
+    //             second = sum;
+    //             if(second>=mod){
+    //                 second = second - mod;
+    //             }
+    //         }
+    //         return second;
+    //     }
+    // }
+
     public static void printFibonacci(int n){
 
         if(n == 0){
