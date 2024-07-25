@@ -14,7 +14,7 @@ public class MaxSubarray {
         }
 
         for(int i=k; i<arr.length; i++){
-            System.out.println(arr[dq.peek()] + " ");
+            System.out.print(arr[dq.peek()] + " ");
             while (!dq.isEmpty() && dq.peek() <= i-k) {
                 dq.removeFirst();
             }
@@ -23,7 +23,7 @@ public class MaxSubarray {
             }
             dq.addLast(i);
         }
-        System.out.println(arr[dq.peek()] + " ");
+        System.out.print(arr[dq.peek()] + " ");
     }
 
     public static void main(String[] args) {
