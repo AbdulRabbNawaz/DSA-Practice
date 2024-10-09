@@ -1,5 +1,7 @@
 package Arrays;
 
+// A deep copy occurs only with arrays containing primitive data types, where the actual values are copied.
+
 class Test1{
     int x;
     int y;
