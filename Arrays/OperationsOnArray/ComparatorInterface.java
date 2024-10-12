@@ -38,7 +38,8 @@ public class ComparatorInterface{
         for (int i = 0; i < arr.length; i++)
             System.out.println(arr[i]);
 
-        Arrays.sort(arr, 1, 3, new SortByRoll());
+        // Arrays.sort(arr, 1, 3, new SortByRoll());
+        Arrays.sort(arr, new SortByRoll());
 
         System.out.println("\nSorted by rollno");
         for (int i = 0; i < arr.length; i++)
