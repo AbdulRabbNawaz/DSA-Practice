@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MaxAndMin {
 
     // Find the Maximum and Minimum in an Array

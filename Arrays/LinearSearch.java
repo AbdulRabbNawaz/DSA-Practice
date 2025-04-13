@@ -1,3 +1,5 @@
+package Arrays;
+
 public class LinearSearch{
 
     // Linear Search (O(N)) – Suitable for unsorted arrays.

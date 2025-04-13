@@ -1,3 +1,5 @@
+package Arrays;
+
 public class BinarySearch{
 
     // Binary Search (O(log N)) – Requires sorted arrays.

@@ -1,3 +1,5 @@
+package Arrays;
+
 public class MoveZero {
 
     // Move Zeros to End

@@ -1,3 +1,5 @@
+package Arrays;
+
 public class CheckSortedArray {
 
     // Check if Array is Sorted
