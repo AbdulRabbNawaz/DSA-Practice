@@ -37,9 +37,9 @@ public class Main{
         n2.next = n3;
         n3.next = null;
 
-        // System.out.println(n1.data + " " + n1.next);
-        // System.out.println(n1.data + " " + n2.next);
-        // System.out.println(n1.data + " " + n3.next);
+        System.out.println(n1.data + " " + n1.next);
+        System.out.println(n1.data + " " + n2.next);
+        System.out.println(n1.data + " " + n3.next);
 
         Main head = new Main();
 
